@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_addTask" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Add Task" />
+        <item android:id="@+id/nav_addAlarmClock" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Add Alarm Clock" />
+        <item android:id="@+id/nav_addNote" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Add Note" />
+        <item android:id="@+id/nav_addEvent" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Add Event Reminder" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_tutorial" android:icon="@android:drawable/ic_menu_share"
+                android:title="How to use" />
+            <item android:id="@+id/nav_about" android:icon="@android:drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
